@@ -30,7 +30,7 @@ jobs:
           arduino-cli compile \
             --fqbn esp8266:esp8266:d1_mini \
             --output-dir build \
-            .
+            sigmabus_esp8266_v3
 
       - name: Guardar archivo BIN
         uses: actions/upload-artifact@v4
